@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartmentManagement", "DepartmentManagement\DepartmentManagement.csproj", "{E8AAC53B-D6B9-4829-9B64-2CD3CB983FEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DepartmentManagement", "DepartmentManagement\DepartmentManagement.csproj", "{E8AAC53B-D6B9-4829-9B64-2CD3CB983FEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartmentManagement.Models", "DepartmentManagement.Models\DepartmentManagement.Models.csproj", "{8B8F39A0-8D9F-4156-90AB-47FA6074D9D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartmentManagement.Repositories", "DepartmentManagement.Repositories\DepartmentManagement.Repositories.csproj", "{AD537660-604D-4CBF-8620-24F37C068FF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartmentManagement.Services", "DepartmentManagement.Services\DepartmentManagement.Services.csproj", "{2DF881E9-D104-45C8-A05C-6D934204A1B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartmentManagement.Databases", "DepartmentManagement.Database\DepartmentManagement.Databases.csproj", "{589D2B81-0CD7-4544-8EC2-D1533B13D6C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{E8AAC53B-D6B9-4829-9B64-2CD3CB983FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8AAC53B-D6B9-4829-9B64-2CD3CB983FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8AAC53B-D6B9-4829-9B64-2CD3CB983FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B8F39A0-8D9F-4156-90AB-47FA6074D9D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8F39A0-8D9F-4156-90AB-47FA6074D9D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B8F39A0-8D9F-4156-90AB-47FA6074D9D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B8F39A0-8D9F-4156-90AB-47FA6074D9D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD537660-604D-4CBF-8620-24F37C068FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD537660-604D-4CBF-8620-24F37C068FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD537660-604D-4CBF-8620-24F37C068FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD537660-604D-4CBF-8620-24F37C068FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DF881E9-D104-45C8-A05C-6D934204A1B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF881E9-D104-45C8-A05C-6D934204A1B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF881E9-D104-45C8-A05C-6D934204A1B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF881E9-D104-45C8-A05C-6D934204A1B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{589D2B81-0CD7-4544-8EC2-D1533B13D6C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589D2B81-0CD7-4544-8EC2-D1533B13D6C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589D2B81-0CD7-4544-8EC2-D1533B13D6C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589D2B81-0CD7-4544-8EC2-D1533B13D6C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

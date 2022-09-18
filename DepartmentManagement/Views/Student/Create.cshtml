@@ -1,0 +1,107 @@
+﻿@model DepartmentManagement.Models.ViewModel.StudentModels.StudentCreateViewModel
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-12">
+                    <h1>Student Form</h1>
+                </div>
+                @*<div class="col-sm-12">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">General Form</li>
+                    </ol>
+                </div>*@
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- left column -->
+                <div class="col-md-6">
+                    <!-- general form elements -->
+                    <div class="card card-primary">
+                        <div class="card-header">
+                            <h3 class="card-title">Create</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <!-- form start -->
+                        <form method="post">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label for="FirstName">First Name</label>
+                                    <input type="text" class="form-control" id="first-name" placeholder="Enter first name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="LastName">Last Name</label>
+                                    <input type="text" class="form-control" id="last-name" placeholder="Enter last name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="EnrollmentDate">Enrollment Date</label>
+                                    <input type="datetime" class="form-control" id="enroll" placeholder="Enter enrollment date">
+                                </div>
+                                <div class="form-group">
+                                    <label for="PhoneNumber">Phone Number</label>
+                                    <input type="text" class="form-control" id="phone" placeholder="Enter phone number">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Email1">Email address</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Session">Session</label>
+                                    <input type="text" class="form-control" id="session" placeholder="Enter session">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Semister">Semister</label>
+                                    <input type="text" class="form-control" id="semister" placeholder="Enter semister">
+                                </div>
+                                <div class="form-group">
+                                    <label for="CGPA">CGPA</label>
+                                    <input type="text" class="form-control" id="cgpa" placeholder="Enter CGPA">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="exampleInputFile">Image</label>
+                                    <div class="input-group">
+                                        <div class="custom-file">
+                                            <input type="file" class="custom-file-input" id="exampleInputFile">
+                                            <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                                        </div>
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">Upload</span>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                            <!-- /.card-body -->
+
+                            <div class="card-footer">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- /.card -->
+
+
+                </div>
+                <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+        </div>
+        <!--/.col (right) -->
+
+    </section>
+    <!-- /.content -->
+</div>

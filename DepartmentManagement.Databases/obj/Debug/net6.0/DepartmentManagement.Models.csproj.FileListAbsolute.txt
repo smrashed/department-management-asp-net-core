@@ -1,0 +1,12 @@
+E:\AspNetProjects\DepartmentManagement\DepartmentManagement.Databases\bin\Debug\net6.0\DepartmentManagement.Models.deps.json
+E:\AspNetProjects\DepartmentManagement\DepartmentManagement.Databases\bin\Debug\net6.0\DepartmentManagement.Models.dll
+E:\AspNetProjects\DepartmentManagement\DepartmentManagement.Databases\bin\Debug\net6.0\DepartmentManagement.Models.pdb
+E:\AspNetProjects\DepartmentManagement\DepartmentManagement.Databases\obj\Debug\net6.0\DepartmentManagement.Models.csproj.AssemblyReference.cache
+E:\AspNetProjects\DepartmentManagement\DepartmentManagement.Databases\obj\Debug\net6.0\DepartmentManagement.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\AspNetProjects\DepartmentManagement\DepartmentManagement.Databases\obj\Debug\net6.0\DepartmentManagement.Models.AssemblyInfoInputs.cache
+E:\AspNetProjects\DepartmentManagement\DepartmentManagement.Databases\obj\Debug\net6.0\DepartmentManagement.Models.AssemblyInfo.cs
+E:\AspNetProjects\DepartmentManagement\DepartmentManagement.Databases\obj\Debug\net6.0\DepartmentManagement.Models.csproj.CoreCompileInputs.cache
+E:\AspNetProjects\DepartmentManagement\DepartmentManagement.Databases\obj\Debug\net6.0\DepartmentManagement.Models.dll
+E:\AspNetProjects\DepartmentManagement\DepartmentManagement.Databases\obj\Debug\net6.0\refint\DepartmentManagement.Models.dll
+E:\AspNetProjects\DepartmentManagement\DepartmentManagement.Databases\obj\Debug\net6.0\DepartmentManagement.Models.pdb
+E:\AspNetProjects\DepartmentManagement\DepartmentManagement.Databases\obj\Debug\net6.0\ref\DepartmentManagement.Models.dll
