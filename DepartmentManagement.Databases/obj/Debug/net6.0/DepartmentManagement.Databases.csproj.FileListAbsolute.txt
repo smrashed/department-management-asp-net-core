@@ -1,0 +1,17 @@
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Databases\bin\Debug\net6.0\DepartmentManagement.Databases.deps.json
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Databases\bin\Debug\net6.0\DepartmentManagement.Databases.runtimeconfig.json
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Databases\bin\Debug\net6.0\DepartmentManagement.Databases.dll
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Databases\bin\Debug\net6.0\DepartmentManagement.Databases.pdb
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Databases\bin\Debug\net6.0\DepartmentManagement.Models.dll
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Databases\bin\Debug\net6.0\DepartmentManagement.Models.pdb
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Databases\obj\Debug\net6.0\DepartmentManagement.Databases.csproj.AssemblyReference.cache
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Databases\obj\Debug\net6.0\DepartmentManagement.Databases.GeneratedMSBuildEditorConfig.editorconfig
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Databases\obj\Debug\net6.0\DepartmentManagement.Databases.AssemblyInfoInputs.cache
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Databases\obj\Debug\net6.0\DepartmentManagement.Databases.AssemblyInfo.cs
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Databases\obj\Debug\net6.0\DepartmentManagement.Databases.csproj.CoreCompileInputs.cache
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Databases\obj\Debug\net6.0\DepartmentManagement.Databases.csproj.CopyComplete
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Databases\obj\Debug\net6.0\DepartmentManagement.Databases.dll
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Databases\obj\Debug\net6.0\refint\DepartmentManagement.Databases.dll
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Databases\obj\Debug\net6.0\DepartmentManagement.Databases.pdb
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Databases\obj\Debug\net6.0\DepartmentManagement.Databases.genruntimeconfig.cache
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Databases\obj\Debug\net6.0\ref\DepartmentManagement.Databases.dll

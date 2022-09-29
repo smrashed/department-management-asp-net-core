@@ -1,0 +1,36 @@
+﻿@model DepartmentCreateViewModel
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="card card-primary">
+    <!-- card-header -->
+    <div class="card-header">
+        <h3 class="card-title">Create</h3>
+    </div>
+    <!-- /.card-header -->
+    <!-- form start -->
+    <form method="post">
+        <!-- card-body -->
+        <div class="card-body">
+            <div class="form-group">
+                <label asp-for="Name">Name</label>
+                <input asp-for="Name" class="form-control" id="name" placeholder="Enter department name">
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Description">Description</label>
+                <textarea asp-for="Description" class="form-control" id="description" placeholder="Descriptions..."></textarea>
+            </div>
+
+        </div>
+        <!-- /.card-body -->
+        <div class="card-footer">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</div>
+
+

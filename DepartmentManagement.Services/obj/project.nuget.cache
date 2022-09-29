@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6XbIc4gC+8G9bxCPvD6lX8/qnaVb7iJS/iwQ2bQ5ly3X79vM5kB9AHi9e+iYIBUV2/0HJAQ1qK9zIWo8NQC8yg==",
+  "dgSpecHash": "K7iThpQHcX9VGT463hyZEgqs4UMeKyh0HoBWeo5drMsB/KlSXv2GuhyHcA1xtUO2Q6BqfSguMt72NwdsSxIT0w==",
   "success": true,
-  "projectFilePath": "E:\\AspNetProjects\\DepartmentManagement\\DepartmentManagement.Services\\DepartmentManagement.Services.csproj",
+  "projectFilePath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Services\\DepartmentManagement.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rashed\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\rashed\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

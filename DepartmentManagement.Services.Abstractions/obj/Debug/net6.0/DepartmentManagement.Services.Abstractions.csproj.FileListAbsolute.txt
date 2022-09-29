@@ -1,0 +1,15 @@
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Services.Abstractions\bin\Debug\net6.0\DepartmentManagement.Services.Abstractions.deps.json
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Services.Abstractions\bin\Debug\net6.0\DepartmentManagement.Services.Abstractions.dll
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Services.Abstractions\bin\Debug\net6.0\DepartmentManagement.Services.Abstractions.pdb
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Services.Abstractions\bin\Debug\net6.0\DepartmentManagement.Models.dll
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Services.Abstractions\bin\Debug\net6.0\DepartmentManagement.Models.pdb
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Services.Abstractions\obj\Debug\net6.0\DepartmentManagement.Services.Abstractions.csproj.AssemblyReference.cache
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Services.Abstractions\obj\Debug\net6.0\DepartmentManagement.Services.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Services.Abstractions\obj\Debug\net6.0\DepartmentManagement.Services.Abstractions.AssemblyInfoInputs.cache
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Services.Abstractions\obj\Debug\net6.0\DepartmentManagement.Services.Abstractions.AssemblyInfo.cs
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Services.Abstractions\obj\Debug\net6.0\DepartmentManagement.Services.Abstractions.csproj.CoreCompileInputs.cache
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Services.Abstractions\obj\Debug\net6.0\DepartmentManagement.Services.Abstractions.csproj.CopyComplete
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Services.Abstractions\obj\Debug\net6.0\DepartmentManagement.Services.Abstractions.dll
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Services.Abstractions\obj\Debug\net6.0\refint\DepartmentManagement.Services.Abstractions.dll
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Services.Abstractions\obj\Debug\net6.0\DepartmentManagement.Services.Abstractions.pdb
+E:\NetcoreProjects\DepartmentManagement.App\DepartmentManagement.Services.Abstractions\obj\Debug\net6.0\ref\DepartmentManagement.Services.Abstractions.dll

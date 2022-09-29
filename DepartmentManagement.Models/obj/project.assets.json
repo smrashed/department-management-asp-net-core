@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\AspNetProjects\\DepartmentManagement\\DepartmentManagement.Models\\DepartmentManagement.Models.csproj",
+      "projectUniqueName": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Models\\DepartmentManagement.Models.csproj",
       "projectName": "DepartmentManagement.Models",
-      "projectPath": "E:\\AspNetProjects\\DepartmentManagement\\DepartmentManagement.Models\\DepartmentManagement.Models.csproj",
+      "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Models\\DepartmentManagement.Models.csproj",
       "packagesPath": "C:\\Users\\rashed\\.nuget\\packages\\",
-      "outputPath": "E:\\AspNetProjects\\DepartmentManagement\\DepartmentManagement.Models\\obj\\",
+      "outputPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rashed\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,85 @@
+﻿@model StudentListViewModel
+
+@{
+    Layout = "_AdminLayout";
+    int serial = 0;
+}
+@inject IDepartmentService _departmentService;
+
+
+<div class="card">
+
+    <div class="card-header">
+        <h3 class="card-title">Student List</h3>
+        <div class="card-tools">
+            <a class="btn btn-primary" asp-action="Create">Create</a>
+        </div>
+    </div>
+
+    <!-- /.card -->
+    <!-- /.card-header -->
+    <div class="card-body">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th style="width: 10px">#</th>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>Enrollment</th>
+                    <th>Email</th>
+                    <th>Session</th>
+                    <th>Semister</th>
+                    <th>Result</th>
+
+                    <th>Phone Number</th>
+                    
+                    <th>Department</th>
+
+                    <th style="width: 40px">Edit</th>
+                    <th style="width: 40px">Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var s in Model.Students)
+                {
+
+                    Model.DepartmentName = _departmentService.GetById((int)s.DepartmentId).Name;
+                    <tr>
+                        <td>@(++serial)</td>
+                        <td>@s.FirstName</td>
+                        <td>@s.LastName</td>
+                        <td>@s.EnrollmentDate</td>
+                        <td>@s.Email</td>
+                        <td>@s.Session</td>
+                        <td>@s.Semister</td>
+                        <td>@s.CGPA</td>
+                        <td>@s.PhoneNumber</td>
+                        <td>
+                            @Model.DepartmentName
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@s.Id" class="badge bg-warning">Edit</a>
+                        </td>
+                        <td>
+                            <a asp-action="Delete" asp-route-id="@s.Id" class="badge bg-danger">Delete</a>
+
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <!-- /.card-body -->
+
+    <div class="card-footer clearfix">
+        <ul class="pagination pagination-sm m-0 float-right">
+            <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+        </ul>
+    </div>
+</div>
+<!-- /.card -->

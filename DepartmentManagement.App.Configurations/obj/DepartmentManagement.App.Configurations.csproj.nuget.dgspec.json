@@ -1,0 +1,460 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.App.Configurations\\DepartmentManagement.App.Configurations.csproj": {}
+  },
+  "projects": {
+    "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.App.Configurations\\DepartmentManagement.App.Configurations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.App.Configurations\\DepartmentManagement.App.Configurations.csproj",
+        "projectName": "DepartmentManagement.App.Configurations",
+        "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.App.Configurations\\DepartmentManagement.App.Configurations.csproj",
+        "packagesPath": "C:\\Users\\rashed\\.nuget\\packages\\",
+        "outputPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.App.Configurations\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rashed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Services.Abstractions\\DepartmentManagement.Services.Abstractions.csproj": {
+                "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Services.Abstractions\\DepartmentManagement.Services.Abstractions.csproj"
+              },
+              "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Services\\DepartmentManagement.Services.csproj": {
+                "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Services\\DepartmentManagement.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Databases\\DepartmentManagement.Databases.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Databases\\DepartmentManagement.Databases.csproj",
+        "projectName": "DepartmentManagement.Databases",
+        "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Databases\\DepartmentManagement.Databases.csproj",
+        "packagesPath": "C:\\Users\\rashed\\.nuget\\packages\\",
+        "outputPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Databases\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rashed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Models\\DepartmentManagement.Models.csproj": {
+                "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Models\\DepartmentManagement.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Models\\DepartmentManagement.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Models\\DepartmentManagement.Models.csproj",
+        "projectName": "DepartmentManagement.Models",
+        "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Models\\DepartmentManagement.Models.csproj",
+        "packagesPath": "C:\\Users\\rashed\\.nuget\\packages\\",
+        "outputPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rashed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Repositories.Abstractions\\DepartmentManagement.Repositories.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Repositories.Abstractions\\DepartmentManagement.Repositories.Abstractions.csproj",
+        "projectName": "DepartmentManagement.Repositories.Abstractions",
+        "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Repositories.Abstractions\\DepartmentManagement.Repositories.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\rashed\\.nuget\\packages\\",
+        "outputPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Repositories.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rashed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Models\\DepartmentManagement.Models.csproj": {
+                "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Models\\DepartmentManagement.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Repositories\\DepartmentManagement.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Repositories\\DepartmentManagement.Repositories.csproj",
+        "projectName": "DepartmentManagement.Repositories",
+        "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Repositories\\DepartmentManagement.Repositories.csproj",
+        "packagesPath": "C:\\Users\\rashed\\.nuget\\packages\\",
+        "outputPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rashed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Databases\\DepartmentManagement.Databases.csproj": {
+                "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Databases\\DepartmentManagement.Databases.csproj"
+              },
+              "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Models\\DepartmentManagement.Models.csproj": {
+                "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Models\\DepartmentManagement.Models.csproj"
+              },
+              "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Repositories.Abstractions\\DepartmentManagement.Repositories.Abstractions.csproj": {
+                "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Repositories.Abstractions\\DepartmentManagement.Repositories.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Services.Abstractions\\DepartmentManagement.Services.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Services.Abstractions\\DepartmentManagement.Services.Abstractions.csproj",
+        "projectName": "DepartmentManagement.Services.Abstractions",
+        "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Services.Abstractions\\DepartmentManagement.Services.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\rashed\\.nuget\\packages\\",
+        "outputPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Services.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rashed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Models\\DepartmentManagement.Models.csproj": {
+                "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Models\\DepartmentManagement.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Services\\DepartmentManagement.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Services\\DepartmentManagement.Services.csproj",
+        "projectName": "DepartmentManagement.Services",
+        "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Services\\DepartmentManagement.Services.csproj",
+        "packagesPath": "C:\\Users\\rashed\\.nuget\\packages\\",
+        "outputPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rashed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Models\\DepartmentManagement.Models.csproj": {
+                "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Models\\DepartmentManagement.Models.csproj"
+              },
+              "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Repositories\\DepartmentManagement.Repositories.csproj": {
+                "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Repositories\\DepartmentManagement.Repositories.csproj"
+              },
+              "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Services.Abstractions\\DepartmentManagement.Services.Abstractions.csproj": {
+                "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Services.Abstractions\\DepartmentManagement.Services.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

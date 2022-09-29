@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sxEfQrtHuJs6jsJLbZK1kRvcJRok/G+vENNrTpi8FNlsfeD9XD+cl+1rK+qW/hqz6sgUTO6quDqY1Q2ohouZhA==",
+  "dgSpecHash": "R8Yfg9cA1sFfHuEWSb1Z548Ge2sfkDqmuewq3L3Lecf6UbKT/aH482Ti9bO5gC8+cBg6FYXcykpSGWZg/BFEVA==",
   "success": true,
-  "projectFilePath": "E:\\AspNetProjects\\DepartmentManagement\\DepartmentManagement.Models\\DepartmentManagement.Models.csproj",
+  "projectFilePath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Models\\DepartmentManagement.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

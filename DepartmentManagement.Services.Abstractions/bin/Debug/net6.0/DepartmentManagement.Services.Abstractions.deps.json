@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DepartmentManagement.Services.Abstractions/1.0.0": {
+        "dependencies": {
+          "DepartmentManagement.Models": "1.0.0"
+        },
+        "runtime": {
+          "DepartmentManagement.Services.Abstractions.dll": {}
+        }
+      },
+      "DepartmentManagement.Models/1.0.0": {
+        "runtime": {
+          "DepartmentManagement.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DepartmentManagement.Services.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DepartmentManagement.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

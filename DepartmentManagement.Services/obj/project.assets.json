@@ -628,14 +628,40 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "DepartmentManagement.Databases": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "6.0.9",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9"
+          "DepartmentManagement.Models": "1.0.0",
+          "DepartmentManagement.Repositories.Abstractions": "1.0.0"
         },
         "compile": {
           "bin/placeholder/DepartmentManagement.Repositories.dll": {}
         },
         "runtime": {
           "bin/placeholder/DepartmentManagement.Repositories.dll": {}
+        }
+      },
+      "DepartmentManagement.Repositories.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DepartmentManagement.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DepartmentManagement.Repositories.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DepartmentManagement.Repositories.Abstractions.dll": {}
+        }
+      },
+      "DepartmentManagement.Services.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DepartmentManagement.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DepartmentManagement.Services.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DepartmentManagement.Services.Abstractions.dll": {}
         }
       }
     }
@@ -1805,8 +1831,8 @@
     },
     "DepartmentManagement.Databases/1.0.0": {
       "type": "project",
-      "path": "../DepartmentManagement.Database/DepartmentManagement.Databases.csproj",
-      "msbuildProject": "../DepartmentManagement.Database/DepartmentManagement.Databases.csproj"
+      "path": "../DepartmentManagement.Databases/DepartmentManagement.Databases.csproj",
+      "msbuildProject": "../DepartmentManagement.Databases/DepartmentManagement.Databases.csproj"
     },
     "DepartmentManagement.Models/1.0.0": {
       "type": "project",
@@ -1817,11 +1843,23 @@
       "type": "project",
       "path": "../DepartmentManagement.Repositories/DepartmentManagement.Repositories.csproj",
       "msbuildProject": "../DepartmentManagement.Repositories/DepartmentManagement.Repositories.csproj"
+    },
+    "DepartmentManagement.Repositories.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../DepartmentManagement.Repositories.Abstractions/DepartmentManagement.Repositories.Abstractions.csproj",
+      "msbuildProject": "../DepartmentManagement.Repositories.Abstractions/DepartmentManagement.Repositories.Abstractions.csproj"
+    },
+    "DepartmentManagement.Services.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../DepartmentManagement.Services.Abstractions/DepartmentManagement.Services.Abstractions.csproj",
+      "msbuildProject": "../DepartmentManagement.Services.Abstractions/DepartmentManagement.Services.Abstractions.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "DepartmentManagement.Repositories >= 1.0.0"
+      "DepartmentManagement.Models >= 1.0.0",
+      "DepartmentManagement.Repositories >= 1.0.0",
+      "DepartmentManagement.Services.Abstractions >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1830,11 +1868,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\AspNetProjects\\DepartmentManagement\\DepartmentManagement.Services\\DepartmentManagement.Services.csproj",
+      "projectUniqueName": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Services\\DepartmentManagement.Services.csproj",
       "projectName": "DepartmentManagement.Services",
-      "projectPath": "E:\\AspNetProjects\\DepartmentManagement\\DepartmentManagement.Services\\DepartmentManagement.Services.csproj",
+      "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Services\\DepartmentManagement.Services.csproj",
       "packagesPath": "C:\\Users\\rashed\\.nuget\\packages\\",
-      "outputPath": "E:\\AspNetProjects\\DepartmentManagement\\DepartmentManagement.Services\\obj\\",
+      "outputPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rashed\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1851,8 +1889,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\AspNetProjects\\DepartmentManagement\\DepartmentManagement.Repositories\\DepartmentManagement.Repositories.csproj": {
-              "projectPath": "E:\\AspNetProjects\\DepartmentManagement\\DepartmentManagement.Repositories\\DepartmentManagement.Repositories.csproj"
+            "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Models\\DepartmentManagement.Models.csproj": {
+              "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Models\\DepartmentManagement.Models.csproj"
+            },
+            "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Repositories\\DepartmentManagement.Repositories.csproj": {
+              "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Repositories\\DepartmentManagement.Repositories.csproj"
+            },
+            "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Services.Abstractions\\DepartmentManagement.Services.Abstractions.csproj": {
+              "projectPath": "E:\\NetcoreProjects\\DepartmentManagement.App\\DepartmentManagement.Services.Abstractions\\DepartmentManagement.Services.Abstractions.csproj"
             }
           }
         }

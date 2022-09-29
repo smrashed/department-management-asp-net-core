@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DepartmentManagement.Models\DepartmentManagement.Models.csproj" />
     <ProjectReference Include="..\DepartmentManagement.Repositories\DepartmentManagement.Repositories.csproj" />
+    <ProjectReference Include="..\DepartmentManagement.Services.Abstractions\DepartmentManagement.Services.Abstractions.csproj" />
   </ItemGroup>
 
 </Project>

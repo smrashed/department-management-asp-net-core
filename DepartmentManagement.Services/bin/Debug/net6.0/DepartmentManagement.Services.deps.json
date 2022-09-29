@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "DepartmentManagement.Services/1.0.0": {
         "dependencies": {
-          "DepartmentManagement.Repositories": "1.0.0"
+          "DepartmentManagement.Models": "1.0.0",
+          "DepartmentManagement.Repositories": "1.0.0",
+          "DepartmentManagement.Services.Abstractions": "1.0.0"
         },
         "runtime": {
           "DepartmentManagement.Services.dll": {}
@@ -474,11 +476,27 @@
       "DepartmentManagement.Repositories/1.0.0": {
         "dependencies": {
           "DepartmentManagement.Databases": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "6.0.9",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9"
+          "DepartmentManagement.Models": "1.0.0",
+          "DepartmentManagement.Repositories.Abstractions": "1.0.0"
         },
         "runtime": {
           "DepartmentManagement.Repositories.dll": {}
+        }
+      },
+      "DepartmentManagement.Repositories.Abstractions/1.0.0": {
+        "dependencies": {
+          "DepartmentManagement.Models": "1.0.0"
+        },
+        "runtime": {
+          "DepartmentManagement.Repositories.Abstractions.dll": {}
+        }
+      },
+      "DepartmentManagement.Services.Abstractions/1.0.0": {
+        "dependencies": {
+          "DepartmentManagement.Models": "1.0.0"
+        },
+        "runtime": {
+          "DepartmentManagement.Services.Abstractions.dll": {}
         }
       }
     }
@@ -780,6 +798,16 @@
       "sha512": ""
     },
     "DepartmentManagement.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DepartmentManagement.Repositories.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DepartmentManagement.Services.Abstractions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
